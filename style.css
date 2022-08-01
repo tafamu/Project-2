@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#bg{
+    width: 100vw;
+    height: 100vh;
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(banner.png);
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+#percent{
+    z-index: 3;
+    color: white;
+    font-size: 50px;
+}
